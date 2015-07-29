@@ -1,17 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Project A</title>
+	<meta charset="utf-8">
+	<title>Project B</title>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+  <link href="http://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+	 <style>
+  #draggable { width: 150px; height: 100px; padding: 0.5em; }
+  </style>
+    <script>
+  $(function() {
+    $( "#draggable" ).draggable();
+  });
+  </script>
 </head>
 <body>
 <div id="logo">
-	<img src="image/Milan_Flag.gif">
+		<img src="image/Milan_Flag.gif" id="draggable">
 </div>
 	<nav>
 		<ul>
-			<li> <a href="https://www.google.com/">Google</a> </li> 
-			<li> <a href="http://www.acmilan.com/en">AC Milan</a> </li>
+			<BUTTON> <li> <a href="https://www.google.com/">Google</a> </li> </BUTTON>
+			<BUTTON> <li> <a href="http://www.acmilan.com/en">AC Milan </a> </li> </BUTTON>
+			<BUTTON> <li> <a href="http://austind22.github.io/contact.html">Contact</a> </li> </BUTTON>
 		</ul>
 	</nav>	
 <section id="section_Milan">
@@ -27,5 +40,6 @@
 <a href="contact.html">
 	contact
 </a>
+
 </body>
 </html>
