@@ -1,0 +1,48 @@
+body{
+	background-image: url("../image/BillNye.gif");
+	background-size: cover;
+
+}
+
+#section_Milan{
+	font-size: 40px;
+	color:skyblue;
+	font-family: sans-serif;
+	text-align: center;
+	width: 210px;
+	height: 45px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+
+#section_Soccer{
+	font-size: 30px;
+	color:gold;
+	font-family: times;
+	width: 300px;
+	height: 80px;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+#section_Bacca{
+	font-size: 36px;
+	color:purple;
+	font-family: monospace;
+	width:300px;
+	height:45px;
+	margin:0 auto;
+	margin-bottom: 40px;
+}
+
+#logo img {
+	margin: 0 auto;
+	display:block;
+	position: relative;
+}
+a{
+	color: pink;
+}
+@media screen and (max-width : 3000px) {}
+;
