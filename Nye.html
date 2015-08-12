@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Project B</title>
+	<link rel="stylesheet" type="text/css" href="css/Nye.css">
+  <link href="http://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+	 <style>
+  #draggable { width: 200px; height: 150px; padding: 0.5em; }
+  </style>
+    <script>
+  $(function() {
+    $( "#draggable" ).draggable();
+  });
+  </script>
+</head>
+<body>
+<div id="logo">
+		<img src="image/Enterprise.jpg" id="draggable">
+</div>    
+<div id="bg"></div>
+<section>
+  <nav>
+    <div>    
+    <ul>
+      <li data-xcord="0px" class="active"><a href="http://austind22.github.io/">Home</a></li>
+      <li data-xcoord="0px" class="active"><a href="Tyson.html">Neil deGrasse Tyson</a></li>
+      <li data-xcoord="160px" class="active"><a href="Nye.html">Bill Nye</a></li>
+      <li data-xcoord="320px" class="active"><a href="Hawking.html">Stephen Hawking</a></li>
+    </ul>
+    </div>
+  </nav>
+</section>
+</body>
+</html>
